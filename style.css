@@ -38,8 +38,25 @@ h1 {
     margin: 0px 0px 10px;
     margin-bottom: 10px;
 }
-
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    margin: .5rem 0px;
+}
+img{
+    width: 4rem;
+    margin: 10px 0px;
+    cursor: pointer;
+}
 /*Ids*/
+
 
 
 
