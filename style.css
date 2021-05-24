@@ -11,9 +11,17 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
+h1{
+    font-family: dancing script,cursive;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+    margin-bottom: 10px;
+}
 header {
-    background-color: #162966;
+    background-color: #bdc4db;
     text-align: center;
+    text-decoration-color: cadetblue;
     height: auto;
     padding: 20px;
     margin: 0px;
@@ -26,13 +34,13 @@ main {
 footer {
     color: white;
     background-color: #162966;
-    text-align: center;
+    text-align:center;
     height: auto;
     padding: 20px;
     margin: 0px;
 }
 h1 {
-    font-family:Dancing script,cursive ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
     font-size: 3.5rem;
     font-weight: 700;
     margin: 0px 0px 10px;
@@ -51,14 +59,50 @@ p{
     margin: .5rem 0px;
 }
 img{
-    width: 4rem;
+    width: 400px;
     margin: 10px 0px;
     cursor: pointer;
 }
+header{
+    height: 4rem;
+    background-color: chartreuse;
+    border: none;
+    margin: 20px 0px 0px;
+    text-decoration-color: darkblue;
+}
+a{
+    color:darkcyan;
+    font-weight: 600;
+    text-decoration-color: home;
+}
+a:hover{
+    color: darkcyan;
+}
+a:visited{
+    color: darkmagenta;
+}
 /*Ids*/
-
-
-
+#page-title{
+    color:white;
+    text-align: center;
+}
+tagline{
+    color:white;
+    text-align: center;
+    margin: opx;
+}
+intro{
+    font-style: italic;
+    margin-bottom: 20px;
+}
 
 
 /*class*/
+:right{
+    float: right;
+    margin-left: 20px;
+}
+:bordered{
+    border:4px;
+    padding:0px;
+}
